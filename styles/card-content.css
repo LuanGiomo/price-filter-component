@@ -39,9 +39,10 @@
     position: absolute;
     cursor: pointer;
     height: calc((var(--s-small-circle) /2));
-    width: 60%;
+    width: 100%;
     transform: translateY(-1px);
     background-color: var(--c-primary);
+    z-index: 1;
   }
 
   .card__content__filter__background__range::before,
