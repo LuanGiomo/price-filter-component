@@ -21,9 +21,17 @@
     color: white;
   }
 
+  .card__footer__button--secondary:hover{
+
+  }
+  
   .card__footer__button--secondary {
     border-radius: 24px;
     background-color: transparent;
     border: 1px solid var(--c-gray-secondary);
     color: var(--c-primary);
+  }
+
+  .card__footer__button--secondary:hover{
+    background-color: var(--c-gray-secondary);
   }
