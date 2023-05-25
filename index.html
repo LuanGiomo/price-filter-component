@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/config.css" />
+    <link rel="stylesheet" href="styles/card.css" />
+    <link rel="stylesheet" href="styles/card-header.css" />
+    <link rel="stylesheet" href="styles/card-content.css" />
+    <link rel="stylesheet" href="styles/card-footer.css" />
+    <title>Card Filter</title>
+  </head>
+  <body>
+    <div class="card">
+      <header class="card__header">
+        <ul class="card__header__list">
+          <li class="card__header__list__item card__header__list__item--active">
+            Price Filter
+          </li>
+          <li class="card__header__list__item">Colors Filter</li>
+          <li class="card__header__list__item">Brand Filter</li>
+        </ul>
+      </header>
+      <main class="card__content">
+        <div class="card__content__range"></div>
+        <div class="card__content__comparison">
+          <div class="card__content__comparison__content">
+            <p class="card__content__comparison__content__title">From:</p>
+            <p class="card__content__comparison__content__value">$ 12,340.45</p>
+          </div>
+          <div class="card__content__comparison__content">
+            <p class="card__content__comparison__content__title">To:</p>
+            <p class="card__content__comparison__content__value">$ 40,350.90</p>
+          </div>
+        </div>
+      </main>
+      <footer class="card__footer">
+        <button class="card__footer__button card__footer__button--primary">
+          Apply
+        </button>
+        <button class="card__footer__button card__footer__button--secondary">
+          Cancel
+        </button>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

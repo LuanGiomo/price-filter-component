@@ -1,0 +1,29 @@
+.card__footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 12px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-inline: 20px;
+    border-top: 1px solid var(--c-gray-secondary);
+  }
+
+  .card__footer__button {
+    border: none;
+    padding: 20px 24px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .card__footer__button--primary {
+    border-radius: 12px;
+    background-color: var(--c-primary);
+    color: white;
+  }
+
+  .card__footer__button--secondary {
+    border-radius: 24px;
+    background-color: transparent;
+    border: 1px solid var(--c-gray-secondary);
+    color: var(--c-primary);
+  }
